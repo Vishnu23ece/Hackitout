@@ -1,0 +1,479 @@
+/* //About */
+
+*{
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+.page{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+
+.top{
+  background-color: rgba(1, 106, 112, 1);
+  min-height: 10vh;
+  /* border: 2px solid red; */
+  padding: 5vh;
+  width: 100vw;
+  position: relative;
+
+}
+
+.content{
+  display: flex;
+  gap: 3vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10vh;
+  color: white;
+  /* borde: 1px solid wheat; */
+}
+
+.text2{
+  max-width: 78%;
+}
+
+.image{
+  width: 45vw;
+  height: 45vh;
+  /* border: 2px solid white; */
+  /* border: 1px solid white; */
+}
+
+.image img{
+  border-radius: 3%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content2{
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  display: flex;
+  gap: 3vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgba(1, 106, 112, 1);
+}
+
+.image2{
+  width: 45vw;
+  height: 45vh;
+  /* border: 2px solid white; */
+  /* border: 1px solid white; */
+}
+
+.image2 img{
+  border-radius: 3%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer{
+  background-image: url("svgs/footer.svg");
+  background-size: cover;
+  height:35vh;
+  width:100vw;
+  /* border: 2px solid red; */
+  padding-top: 14%;
+  background-repeat: no-repeat;
+  margin-bottom: 0 ;
+}
+
+
+
+.footer .content{
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.footer .content .left{
+  /* padding-top: 4%; */
+  /* width: 40%; */
+  font-weight: 400;
+  font-size: small;
+}
+
+.footer .content .left .text{
+  margin-top: 3%;
+}
+
+.footer .content .middle{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(4,1fr);
+  gap: 2vw 6vh;
+  padding-left: 2%;
+}
+
+.footer .content .middle .head{
+  font-size: large;
+  font-weight: 500;
+}
+
+.footer .right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3%;
+} 
+
+/* navbar */
+
+
+/* //Login */
+
+.Login .page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Login .page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(images/1000_F_723278859_TOCEpf9Queh0X5oq4jjI9aDEiN8V0YSf.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  z-index: -1;
+}
+
+.card{
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 18vw;
+  height: 70vh;
+  /* margin-top: 20vh; */
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+  background-color: white;
+  border-radius: 1vh;
+  /* align-items: center; */
+  /* padding: 0 10%; */
+  /* justify-content: center; */
+}
+
+.card .head{
+  /* display: flex; */
+  /* align-items: center; */
+  /* width: 100%; */
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  font-size: xxx-large;
+  font-weight: 700;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+
+.card .usernamepart .username{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  height: 4.5vh;
+  border-radius: 1vh;
+  border: 0;
+  border-bottom: 1px solid black;
+
+}
+
+.card .passwordpart{
+  margin-top: 5%;
+  font-weight:600;
+
+}
+
+.card .usernamepart{
+  font-weight:600;
+}
+
+.card .passwordpart .password{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  height: 4.5vh;
+  border-radius: 1vh;
+  border: 0;
+  border-bottom: 1px solid black;
+  /* margin-top: ; */
+}
+
+.card .btn{
+  margin-top: 10%;
+  margin-bottom: 30%;
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background-image: linear-gradient(to right, rgb(124, 192, 124), rgb(31, 123, 31));
+  border-radius: 3vh;
+  /* border: 1px solid black; */
+}
+
+.card .else{
+  /* border: 1px solid black; */
+  /* padding: auto; */
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.else .btn{
+  width: 50%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background-image: linear-gradient(to right, rgb(124, 192, 124), rgb(31, 123, 31));
+  border-radius: 3vh;
+  /* border: 1px solid black; */
+}
+
+.text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text .elss_text{
+  color: rgb(59, 59, 59);
+  font-size: small;
+}
+
+
+/* //Sign Up */
+
+.card_2{
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 18vw;
+  height: 70vh;
+  /* margin-top: 20vh; */
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+  background-color: white;
+  border-radius: 1vh;
+  /* align-items: center; */
+  /* padding: 0 10%; */
+  /* justify-content: center; */
+}
+
+.card_2 .head{
+  /* display: flex; */
+  /* align-items: center; */
+  /* width: 100%; */
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  font-size: xxx-large;
+  font-weight: 700;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+
+.card_2 .usernamepart .username{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  height: 4.5vh;
+  border-radius: 1vh;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.card_2 .emailpart .email{
+  
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  height: 4.5vh;
+  border-radius: 1vh;
+  border: 0;
+  border-bottom: 1px solid black;
+
+}
+
+.card_2 .passwordpart{
+  margin-top: 2%;
+  font-weight:600;
+}
+
+.card_2 .emailpart{
+  font-weight:600;
+  margin-top: 3%;
+}
+
+.card_2 .usernamepart{
+  font-weight:600;
+}
+
+.card_2 .passwordpart .password{
+  width: 100%;
+  background-color: rgba(143, 22, 22, 0);
+  border: 0;
+  border-bottom: 1px solid black;
+  height: 4.5vh;
+  border-radius: 1vh;
+  /* margin-top: ; */
+}
+
+.card_2 .btn{
+  margin-top: 10%;
+  margin-bottom: 30%;
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background-image: linear-gradient(to right, rgb(124, 192, 124), rgb(31, 123, 31));
+  border-radius: 3vh;
+  /* border: 1px solid black; */
+}
+
+.card_2 .else{
+  /* border: 1px solid black; */
+  /* padding: auto; */
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.card_2 .else .btn{
+  width: 50%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background-image: linear-gradient(to right, rgb(124, 192, 124), rgb(31, 123, 31));
+  border-radius: 3vh;
+  /* border: 1px solid black; */
+}
+
+.card_2 .text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_2 .text .elss_text{
+  color: rgb(59, 59, 59);
+  font-size: small;
+}
+
+.card_2 .confirmpasswordpart .confirm_password{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  height: 4.5vh;
+  border-radius: 1vh;
+  border: 0;
+  border-bottom: 1px solid black;
+  /* margin-top: ; */
+}
+
+.card_2 .confirmpasswordpart{
+  margin-top: 2%;
+  font-weight:600;
+}
+
+
+/* //Home */
+.carousel-item img{
+  filter:  brightness(30%);
+}
+
+
+  .top_1{
+    background: rgba(1, 106, 112, 1);
+    height: 50vh;
+  }
+
+.Navbar{
+  /* position: absolute; */
+  top: 1rem;
+  height: 60px;
+  width: 100vw;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  /* margin-top: 1%; */
+}
+
+
+nav{
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+nav .img{
+   height: 100%;
+   width: 20%;
+}
+
+nav .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+nav .options{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+nav .options button{
+  font-size: 15px;
+  height: 60%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.Home .mid_1{
+  background-color: black;
+  height: 100vh;
+  border: 2px solid white;
+}
+
+.counters{
+  background-color: black;
+  height: 30vh;
+}
+
+
+
+
+
+
+
