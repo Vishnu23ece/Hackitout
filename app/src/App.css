@@ -469,6 +469,14 @@ nav .options button{
 .counters{
   background-color: black;
   height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+}
+
+nav .img img{
+  height: 5vh;
 }
 
 

@@ -12,7 +12,7 @@ const Home = () => {
         <div className="Navbar">
         <nav>
               <div className="img">
-                  <img src="svgs/invert_logo.svg" alt="logo"/>
+                  <img src="Images/im8.jpg" alt="logo"/>
               </div>
               <div className="options">
                   <button>Home</button>
@@ -46,10 +46,14 @@ const Home = () => {
             </button>
         </div>
 
-        <div className="counters">
-            
-            <CircularNumber number={<RollingCounter start={11} end={11} duration={5} />}/>
+        <div className="counters">  
+        <CircularNumber number={<RollingCounter start={0} end={0} duration={5000} />} svgSrc="Images/im4.png" height="64px" />
+        <CircularNumber number={<RollingCounter start={0} end={0} duration={5000} />} svgSrc="Images/im5.png" />
+        <CircularNumber number={<RollingCounter start={0} end={0} duration={1} />} svgSrc="Images/im6.png" />
+        <CircularNumber number={<RollingCounter start={0} end={0} duration={5000} />} svgSrc="Images/im7.png" />
         </div>
+
+        
 
       </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CircularElementWithSVG = ({ number, svgSrc }) => {
+const CircularElementWithSVG = ({ number, svgSrc,height }) => {
   return (
     <div style={{
       width: '150px',
@@ -17,7 +17,7 @@ const CircularElementWithSVG = ({ number, svgSrc }) => {
       color:'rgb(0, 253, 117)',
       padding: '10px'
     }}>
-      <img src={svgSrc} alt="Plastic Bottles" style={{ height: '50px', marginBottom: '10px' }} />
+      <img src={svgSrc} alt="Plastic Bottles" style={{ height: {height}, marginBottom: '10px',filter: 'invert(100%)' }} />
       <span>{number}</span>
     </div>
   );
